@@ -20,19 +20,19 @@ const CTASection = () => (
           Need Professional Roofing or Construction Services?
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-accent-foreground/70">
-          Contact Sssekta Real contructors today for reliable and professional construction services.
+          Contact Ssekta Real Contructors today for reliable and professional construction services.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button asChild variant="accent" size="xl">
             <a href="tel:+256705941023">
               <Phone className="mr-2 h-5 w-5" />
-              Call +256 705 941023
+              Call Us Now
             </a>
           </Button>
           <Button asChild variant="whatsapp" size="xl">
             <a href="https://wa.me/256776529485" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-2 h-5 w-5" />
-              WhatsApp +256 776 529485
+              Contact Us Via WhatsApp
             </a>
           </Button>
         </div>

@@ -9,12 +9,12 @@ import hero2 from "@/assets/Images/Completed Projects/completed (8).jpg";
 const About = () => (
   <>
     <Seo
-      title="About Ssekta Real Contructors | Trusted Construction Company in Mukono"
-      description="Learn about Ssekta Real Contructors' mission, top-quality service, and 10+ years of experience in roofing structures, form works, and building maintenance."
+      title="About Ssekta Real Contructors Ltd | Trusted Construction Company in Mukono"
+      description="Learn about Ssekta Real Contructors Ltd' mission, top-quality service, and 10+ years of experience in roofing structures, form works, and building maintenance."
       url="https://sekta-real-constructors.com/about"
       canonical="https://sekta-real-constructors.com/about"
-      image="https://www.sektarealconstructors.com/assets/Sekta-Real-Constructors-Logo-Black-DjL8LATT.png"
-      keywords="about Sssekta Real contructors, construction company mukono, roofing experience uganda"
+      image="https://www.ssektarealcontractorsltd.com/assets/Sekta-Real-Constructors-Logo-Black-DjL8LATT.png"
+      keywords="about Ssekta Real contructors Ltd, construction company mukono, roofing experience uganda"
     />
     <Navbar />
     <main>
@@ -27,7 +27,7 @@ const About = () => (
               transition={{ duration: 0.4 }}
             >
               <h1 className="text-4xl font-black text-foreground sm:text-5xl">
-                About <span className="text-accent">Ssekta Real Contructors</span>
+                About <span className="text-accent">Ssekta Real Contructors Ltd</span>
               </h1>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
                 Ssekta Real contructors is a professional construction company based in Seeta, Mukono
@@ -74,7 +74,7 @@ const About = () => (
             >
               <img
                 src={hero2}
-                alt="Sssekta Real construction project"
+                alt="Ssekta Real construction project"
                 className="w-full object-cover"
               />
             </motion.div>

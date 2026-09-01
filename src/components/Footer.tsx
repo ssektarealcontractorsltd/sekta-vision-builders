@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {/* Brand */}
         <div>
-          <h3 className="text-lg font-black">Ssekta Real Contructors</h3>
+          <h3 className="text-lg font-black">Ssekta Real Contractors Ltd.</h3>
           <p className="mt-2 text-sm italic text-primary-foreground/70">
             "Only the best is good enough"
           </p>
@@ -80,7 +80,7 @@ const Footer = () => (
       </div>
 
       <div className="mt-10 border-t border-primary-foreground/10 pt-6 text-center text-xs text-primary-foreground/50">
-        © {new Date().getFullYear()} Ssekta Real Contructors. All rights reserved.
+        © {new Date().getFullYear()} Ssekta Real Contractors Ltd. All rights reserved.
       </div>
     </div>
   </footer>

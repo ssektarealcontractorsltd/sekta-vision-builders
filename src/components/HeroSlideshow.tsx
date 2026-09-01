@@ -83,17 +83,21 @@ const HeroSlideshow = () => {
         <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
           <div className="md:max-w-[clamp(30%,35%,50%)]">
             {/* Desktop brand */}
-            <div className="hidden md:flex items-center gap-4 mb-2">
-              <img src={logo} alt="Ssekta Real Contractors" className="h-12 w-auto" />
-              <h1 className="text-3xl lg:text-4xl font-bold text-white tracking-tight">
+            <div className="hidden md:flex mb-2">
+              <h1
+                className="text-3xl lg:text-4xl font-bold text-white tracking-tight"
+                style={{ fontFamily: '"Altero", "Athena", "Marigold Sans", "Avenir Next", "Avenir", "Segoe UI", sans-serif' }}
+              >
                 Ssekta <span className="text-[#f86b0d]">Real</span> Contractors Ltd.
               </h1>
             </div>
 
             {/* Mobile brand */}
-            <div className="flex md:hidden items-center gap-3 mb-1">
-              <img src={logo} alt="Ssekta Real Contractors" className="h-9 w-auto" />
-              <h1 className="text-xl font-bold text-white tracking-tight">
+            <div className="flex md:hidden mb-1">
+              <h1
+                className="text-xl font-bold text-white tracking-tight"
+                style={{ fontFamily: '"Altero", "Athena", "Marigold Sans", "Avenir Next", "Avenir", "Segoe UI", sans-serif' }}
+              >
                 Ssekta <span className="text-[#f86b0d]">Real</span> Contractors Ltd.
               </h1>
             </div>
@@ -102,7 +106,10 @@ const HeroSlideshow = () => {
               "Only the best is good enough."
             </p>
 
-            <p className="mt-3 max-w-lg text-sm sm:text-base md:text-base leading-relaxed text-white/80">
+            <p
+              className="mt-3 max-w-lg text-sm sm:text-base md:text-base leading-relaxed text-white/80"
+              style={{ fontFamily: '"Avenir Next", "Avenir", "Segoe UI", sans-serif' }}
+            >
               Professional construction company with over 10 years of experience in roofing structures,
               construction, form works, and maintenance.
             </p>
